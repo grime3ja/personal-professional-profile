@@ -1,3 +1,18 @@
+.me {
+    height: 375px;
+    width: 250px;
+}
+.jmu {
+    height: 161px;
+    width: 250px;
+    margin-bottom: 100px;
+}
+.fvc {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
 body {
     display: flex;
     flex-direction: column;
