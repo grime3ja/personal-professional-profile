@@ -56,7 +56,7 @@ export default function Navbar() {
     <header className="w-full border-b border-gray-200 dark:border-gray-800 bg-opacity-60 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <NavLink to="/" className="text-lg font-semibold tracking-tight">Placeholder Title</NavLink>
+          <NavLink to="/" className="text-lg font-semibold tracking-tight">Jacob Grimes</NavLink>
           <nav className="hidden md:flex items-center space-x-2">
             <NavItem to="/">Home</NavItem>
             <NavItem to="/about">About</NavItem>
