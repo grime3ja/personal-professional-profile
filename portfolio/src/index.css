@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small utility for subtle page fade */
+.page-fade-enter {
+  opacity: 0;
+}
+.page-fade-enter-active {
+  transition: opacity 300ms ease-in;
+  opacity: 1;
+}
+
+/* simple pixel-font-like fallback for small headings (optional) */
+@font-face {
+  font-family: 'ui-sans';
+  src: local('Inter'), local('system-ui');
+}
+
+/* global styles */
+:root {
+  --bg: #ffffff;
+  --muted: #6b7280;
+  --text: #111827;
+}
+.dark {
+  --bg: #0b1220;
+  --muted: #94a3b8;
+  --text: #e6eef8;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
