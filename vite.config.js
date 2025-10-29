@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // base: '/https://github.com/grime3ja/personal-professional-profile/'
+  base: '/https://github.com/grime3ja/personal-professional-profile/'
 })
