@@ -36,7 +36,9 @@ function App() {
         className="flex-grow container mx-auto px-4 py-8 transition-opacity duration-300"
       >
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/home" replace />} />
+
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>

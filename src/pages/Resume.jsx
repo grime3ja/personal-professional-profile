@@ -11,7 +11,7 @@ export default function Resume() {
 
         <div className="flex items-center space-x-2">
           <a
-            href="/assets/resume.pdf"
+            href={`${import.meta.env.BASE_URL}assets/loading-screen.png`}
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-md bg-brand-500 text-white text-sm"
