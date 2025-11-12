@@ -20,7 +20,7 @@ export default function LoadingScreen() {
       <div className="text-center">
         <div className="mx-auto mb-6 w-[320px] h-[240px] bg-black rounded shadow-lg overflow-hidden flex items-center justify-center">
           {/* the image — put loading-screen.png in public/assets */}
-          <img src="/assets/loading-screen.png" alt="Loading" className="w-full h-full object-contain" />
+          <img src="/public/assets/loading-screen.png" alt="Loading" className="w-full h-full object-contain" />
         </div>
 
         <div className="text-sm text-gray-300 mb-2">Loading portfolio…</div>
