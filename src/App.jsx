@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
+// import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import LoadingScreen from './components/LoadingScreen'
 import Home from './pages/Home'
 import About from './pages/About'
 import Resume from './pages/Resume'
-import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 function App() {
   const [initialLoading, setInitialLoading] = useState(true)
